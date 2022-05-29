@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <%- include('commen/header') %>
+    <h1>WElcome <%= user.name %></h1>
+    <h1>Email: <%= user.email %></h1>
+    <ul>Skills: <%= user.skills.forEach((item)=>{console.log(item)}) %></ul>    
+</body>
+</html>
